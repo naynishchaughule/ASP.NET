@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Manager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" OrganizationCode="4128">
+  <ID>65985</ID>
+  <Fname>naynish</Fname>
+  <ContactDetails>
+    <Phone>202-714-5352</Phone>
+    <Phone>992-005-3379</Phone>
+  </ContactDetails>
+  <Client ClientID="555">
+    <ClientName>Christian Dave</ClientName>
+  </Client>
+  <ProjID>MOL 89220</ProjID>
+</Manager>

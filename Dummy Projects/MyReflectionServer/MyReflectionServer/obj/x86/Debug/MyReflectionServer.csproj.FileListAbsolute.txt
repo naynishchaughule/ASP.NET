@@ -1,0 +1,5 @@
+C:\Users\naynish\Desktop\Dummy Projects\MyReflectionServer\MyReflectionServer\bin\Debug\MyReflectionServer.exe
+C:\Users\naynish\Desktop\Dummy Projects\MyReflectionServer\MyReflectionServer\bin\Debug\MyReflectionServer.pdb
+C:\Users\naynish\Desktop\Dummy Projects\MyReflectionServer\MyReflectionServer\obj\x86\Debug\MyReflectionServer.exe
+C:\Users\naynish\Desktop\Dummy Projects\MyReflectionServer\MyReflectionServer\obj\x86\Debug\MyReflectionServer.pdb
+C:\Users\naynish\Desktop\Dummy Projects\MyReflectionServer\MyReflectionServer\obj\x86\Debug\MyReflectionServer.csprojResolveAssemblyReference.cache

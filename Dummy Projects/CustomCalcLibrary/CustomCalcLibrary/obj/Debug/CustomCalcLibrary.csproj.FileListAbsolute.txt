@@ -1,0 +1,4 @@
+C:\Users\naynish\Desktop\Dummy Projects\CustomCalcLibrary\CustomCalcLibrary\bin\Debug\CustomCalcLibrary.dll
+C:\Users\naynish\Desktop\Dummy Projects\CustomCalcLibrary\CustomCalcLibrary\bin\Debug\CustomCalcLibrary.pdb
+C:\Users\naynish\Desktop\Dummy Projects\CustomCalcLibrary\CustomCalcLibrary\obj\Debug\CustomCalcLibrary.dll
+C:\Users\naynish\Desktop\Dummy Projects\CustomCalcLibrary\CustomCalcLibrary\obj\Debug\CustomCalcLibrary.pdb

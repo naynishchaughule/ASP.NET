@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="NorthwindModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="NorthwindModelStoreContainer">
+          <EntitySet Name="Category" EntityType="NorthwindModel.Store.Category" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Products" EntityType="NorthwindModel.Store.Products" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK__Products__Catego__29572725" Association="NorthwindModel.Store.FK__Products__Catego__29572725">
+            <End Role="Category" EntitySet="Category" />
+            <End Role="Products" EntitySet="Products" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Category">
+          <Key>
+            <PropertyRef Name="CategoryID" />
+          </Key>
+          <Property Name="CategoryID" Type="int" Nullable="false" />
+          <Property Name="CategoryName" Type="varchar" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Products">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="CategoryID" Type="int" Nullable="false" />
+          <Property Name="ProductID" Type="int" Nullable="false" />
+          <Property Name="ProductName" Type="varchar" />
+          <Property Name="UnitPrice" Type="money" Nullable="false" />
+          <Property Name="UnitsInStock" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Products__Catego__29572725">
+          <End Role="Category" Type="NorthwindModel.Store.Category" Multiplicity="1" />
+          <End Role="Products" Type="NorthwindModel.Store.Products" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Category">
+              <PropertyRef Name="CategoryID" />
+            </Principal>
+            <Dependent Role="Products">
+              <PropertyRef Name="CategoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="SelectCategory" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CategoryID" Type="int" Mode="In" />
+        </Function>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="NorthwindModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="NorthwindEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Categories" EntityType="NorthwindModel.Category" />
+          <EntitySet Name="Products" EntityType="NorthwindModel.Product" />
+          <AssociationSet Name="FK__Products__Catego__29572725" Association="NorthwindModel.FK__Products__Catego__29572725">
+            <End Role="Category" EntitySet="Categories" />
+            <End Role="Products" EntitySet="Products" />
+          </AssociationSet>
+          <FunctionImport Name="SelectCategory" EntitySet="Categories" ReturnType="Collection(NorthwindModel.Category)">
+            <Parameter Name="CategoryID" Mode="In" Type="Int32" />
+          </FunctionImport>
+        </EntityContainer>
+        <EntityType Name="Category">
+          <Key>
+            <PropertyRef Name="CategoryID" />
+          </Key>
+          <Property Name="CategoryID" Type="Int32" Nullable="false" />
+          <Property Name="CategoryName" Type="String" Nullable="false" MaxLength="8000" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="Products" Relationship="NorthwindModel.FK__Products__Catego__29572725" FromRole="Category" ToRole="Products" />
+        </EntityType>
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="CategoryID" Type="Int32" Nullable="false" />
+          <Property Name="ProductID" Type="Int32" Nullable="false" />
+          <Property Name="ProductName" Type="String" MaxLength="8000" Unicode="false" FixedLength="false" />
+          <Property Name="UnitPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="UnitsInStock" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Category" Relationship="NorthwindModel.FK__Products__Catego__29572725" FromRole="Products" ToRole="Category" />
+        </EntityType>
+        <Association Name="FK__Products__Catego__29572725">
+          <End Role="Category" Type="NorthwindModel.Category" Multiplicity="1" />
+          <End Role="Products" Type="NorthwindModel.Product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Category">
+              <PropertyRef Name="CategoryID" />
+            </Principal>
+            <Dependent Role="Products">
+              <PropertyRef Name="CategoryID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="NorthwindModelStoreContainer" CdmEntityContainer="NorthwindEntities">
+          <EntitySetMapping Name="Categories">
+            <EntityTypeMapping TypeName="NorthwindModel.Category">
+              <MappingFragment StoreEntitySet="Category">
+                <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Products">
+            <EntityTypeMapping TypeName="NorthwindModel.Product">
+              <MappingFragment StoreEntitySet="Products">
+                <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+                <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+                <ScalarProperty Name="UnitsInStock" ColumnName="UnitsInStock" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="SelectCategory" FunctionName="NorthwindModel.Store.SelectCategory" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Northwind">
+        <EntityTypeShape EntityType="NorthwindModel.Category" Width="1.5" PointX="0.75" PointY="1.25" Height="1.5956835937499998" IsExpanded="true" />
+        <EntityTypeShape EntityType="NorthwindModel.Product" Width="1.5" PointX="3" PointY="0.875" Height="2.1725878906249996" IsExpanded="true" />
+        <AssociationConnector Association="NorthwindModel.FK__Products__Catego__29572725" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="2.047841796875" />
+          <ConnectorPoint PointX="3" PointY="2.047841796875" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://www.restfulwebservices.net/wcf/CurrencyService.svc?wsdl" filename="CurrencyService.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://www.restfulwebservices.net/wcf/CurrencyService.svc?disco" filename="CurrencyService.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://www.restfulwebservices.net/wcf/CurrencyService.svc?xsd=xsd0" filename="CurrencyService.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://www.restfulwebservices.net/wcf/CurrencyService.svc?xsd=xsd1" filename="CurrencyService0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://www.restfulwebservices.net/wcf/CurrencyService.svc?xsd=xsd2" filename="CurrencyService1.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://www.restfulwebservices.net/wcf/CurrencyService.svc?xsd=xsd3" filename="CurrencyService2.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

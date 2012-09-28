@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<Products>
+		<Product>
+			<ProductName>Pen</ProductName>
+			<Cost>10</Cost>
+		</Product>
+		<Product>
+			<ProductName>Mouse</ProductName>
+			<Cost>19</Cost>
+		</Product>
+		<Product>
+			<ProductName>Coke</ProductName>
+			<Cost>2</Cost>
+		</Product>
+		<Product>
+			<ProductName>Phone</ProductName>
+			<Cost>200</Cost>
+		</Product>
+	</Products>

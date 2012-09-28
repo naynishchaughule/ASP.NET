@@ -1,0 +1,5 @@
+C:\Users\naynish\Desktop\Dummy Projects\MyProjects\MyProjects\bin\Debug\MyProjects.exe.config
+C:\Users\naynish\Desktop\Dummy Projects\MyProjects\MyProjects\bin\Debug\MyProjects.exe
+C:\Users\naynish\Desktop\Dummy Projects\MyProjects\MyProjects\bin\Debug\MyProjects.pdb
+C:\Users\naynish\Desktop\Dummy Projects\MyProjects\MyProjects\obj\x86\Debug\MyProjects.exe
+C:\Users\naynish\Desktop\Dummy Projects\MyProjects\MyProjects\obj\x86\Debug\MyProjects.pdb

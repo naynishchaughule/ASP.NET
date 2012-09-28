@@ -1,0 +1,4 @@
+C:\Users\naynish\Desktop\Dummy Projects\Web Services\CustomWebService\OldClient\bin\OldClient.dll
+C:\Users\naynish\Desktop\Dummy Projects\Web Services\CustomWebService\OldClient\bin\OldClient.pdb
+C:\Users\naynish\Desktop\Dummy Projects\Web Services\CustomWebService\OldClient\obj\Debug\OldClient.dll
+C:\Users\naynish\Desktop\Dummy Projects\Web Services\CustomWebService\OldClient\obj\Debug\OldClient.pdb

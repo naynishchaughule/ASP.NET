@@ -1,0 +1,4 @@
+C:\Users\naynish\Desktop\Dummy Projects\MyReflectionClient\MyReflectionClient\bin\Debug\MyReflectionClient.pdb
+C:\Users\naynish\Desktop\Dummy Projects\MyReflectionClient\MyReflectionClient\obj\x86\Debug\MyReflectionClient.pdb
+C:\Users\naynish\Desktop\Dummy Projects\MyReflectionClient\MyReflectionClient\bin\Debug\MyReflectionClient.dll
+C:\Users\naynish\Desktop\Dummy Projects\MyReflectionClient\MyReflectionClient\obj\x86\Debug\MyReflectionClient.dll

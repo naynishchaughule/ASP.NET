@@ -1,0 +1,4 @@
+C:\Users\naynish\Desktop\Dummy Projects\NextDay\Inheritance\bin\Debug\Inheritance.exe
+C:\Users\naynish\Desktop\Dummy Projects\NextDay\Inheritance\bin\Debug\Inheritance.pdb
+C:\Users\naynish\Desktop\Dummy Projects\NextDay\Inheritance\obj\x86\Debug\Inheritance.exe
+C:\Users\naynish\Desktop\Dummy Projects\NextDay\Inheritance\obj\x86\Debug\Inheritance.pdb

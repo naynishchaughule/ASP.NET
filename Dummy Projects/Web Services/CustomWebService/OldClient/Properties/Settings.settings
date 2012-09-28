@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OldClient.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="OldClient_NashService_Service1" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:5714/Service1.asmx</Value>
+    </Setting>
+    <Setting Name="OldClient_RestNash_CurrencyService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.restfulwebservices.net/wcf/CurrencyService.svc</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

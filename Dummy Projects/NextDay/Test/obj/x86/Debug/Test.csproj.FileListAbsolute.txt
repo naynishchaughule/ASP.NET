@@ -1,0 +1,4 @@
+C:\Users\naynish\Desktop\Dummy Projects\NextDay\Test\bin\Debug\Test.exe
+C:\Users\naynish\Desktop\Dummy Projects\NextDay\Test\bin\Debug\Test.pdb
+C:\Users\naynish\Desktop\Dummy Projects\NextDay\Test\obj\x86\Debug\Test.exe
+C:\Users\naynish\Desktop\Dummy Projects\NextDay\Test\obj\x86\Debug\Test.pdb

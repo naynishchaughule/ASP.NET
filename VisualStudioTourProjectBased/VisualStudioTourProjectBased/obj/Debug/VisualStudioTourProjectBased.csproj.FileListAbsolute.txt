@@ -1,0 +1,4 @@
+G:\naynish\Pro ASP.NET 4 in C# 2010\VisualStudioTourProjectBased\VisualStudioTourProjectBased\bin\VisualStudioTourProjectBased.dll
+G:\naynish\Pro ASP.NET 4 in C# 2010\VisualStudioTourProjectBased\VisualStudioTourProjectBased\bin\VisualStudioTourProjectBased.pdb
+G:\naynish\Pro ASP.NET 4 in C# 2010\VisualStudioTourProjectBased\VisualStudioTourProjectBased\obj\Debug\VisualStudioTourProjectBased.dll
+G:\naynish\Pro ASP.NET 4 in C# 2010\VisualStudioTourProjectBased\VisualStudioTourProjectBased\obj\Debug\VisualStudioTourProjectBased.pdb

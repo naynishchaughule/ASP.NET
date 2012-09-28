@@ -1,0 +1,4 @@
+C:\Users\naynish\Desktop\Application\StaticDemo\StaticDemo\bin\Debug\StaticDemo.exe
+C:\Users\naynish\Desktop\Application\StaticDemo\StaticDemo\bin\Debug\StaticDemo.pdb
+C:\Users\naynish\Desktop\Application\StaticDemo\StaticDemo\obj\x86\Debug\StaticDemo.exe
+C:\Users\naynish\Desktop\Application\StaticDemo\StaticDemo\obj\x86\Debug\StaticDemo.pdb

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualStudioTourProjectBased", "VisualStudioTourProjectBased\VisualStudioTourProjectBased.csproj", "{52F4EBE8-A51C-454F-8868-BE576766C478}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://naynish-pc:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = VisualStudioTourProjectBased\\VisualStudioTourProjectBased.csproj
+		SccProjectName1 = VisualStudioTourProjectBased
+		SccLocalPath1 = VisualStudioTourProjectBased
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52F4EBE8-A51C-454F-8868-BE576766C478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F4EBE8-A51C-454F-8868-BE576766C478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F4EBE8-A51C-454F-8868-BE576766C478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F4EBE8-A51C-454F-8868-BE576766C478}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+C:\Users\naynish\Desktop\Dummy Projects\GacInstall\GacInstall\bin\Debug\GacInstall.exe
+C:\Users\naynish\Desktop\Dummy Projects\GacInstall\GacInstall\bin\Debug\GacInstall.pdb
+C:\Users\naynish\Desktop\Dummy Projects\GacInstall\GacInstall\obj\x86\Debug\GacInstall.exe
+C:\Users\naynish\Desktop\Dummy Projects\GacInstall\GacInstall\obj\x86\Debug\GacInstall.pdb

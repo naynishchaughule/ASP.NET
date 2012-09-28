@@ -1,0 +1,7 @@
+C:\Users\naynish\Desktop\Dummy Projects\Advanced\Studio\Studio\bin\Debug\Studio.exe
+C:\Users\naynish\Desktop\Dummy Projects\Advanced\Studio\Studio\bin\Debug\Studio.pdb
+C:\Users\naynish\Desktop\Dummy Projects\Advanced\Studio\Studio\bin\Debug\InterfaceImplementation.dll
+C:\Users\naynish\Desktop\Dummy Projects\Advanced\Studio\Studio\bin\Debug\InterfaceImplementation.pdb
+C:\Users\naynish\Desktop\Dummy Projects\Advanced\Studio\Studio\obj\x86\Debug\Studio.csprojResolveAssemblyReference.cache
+C:\Users\naynish\Desktop\Dummy Projects\Advanced\Studio\Studio\obj\x86\Debug\Studio.exe
+C:\Users\naynish\Desktop\Dummy Projects\Advanced\Studio\Studio\obj\x86\Debug\Studio.pdb

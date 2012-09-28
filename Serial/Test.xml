@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<PatniEmployee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Key="48090">
+  <Fname>naynish</Fname>
+  <Salary>85000</Salary>
+  <OrgCode>560</OrgCode>
+  <Skills>
+    <SKSet>
+      <string>vb</string>
+      <string>c#</string>
+      <string>asp.net</string>
+    </SKSet>
+  </Skills>
+</PatniEmployee>

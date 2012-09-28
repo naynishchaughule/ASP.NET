@@ -1,0 +1,4 @@
+C:\Users\naynish\Desktop\Application\DemoStatic\DemoStatic\bin\Debug\DemoStatic.exe
+C:\Users\naynish\Desktop\Application\DemoStatic\DemoStatic\bin\Debug\DemoStatic.pdb
+C:\Users\naynish\Desktop\Application\DemoStatic\DemoStatic\obj\x86\Debug\DemoStatic.exe
+C:\Users\naynish\Desktop\Application\DemoStatic\DemoStatic\obj\x86\Debug\DemoStatic.pdb

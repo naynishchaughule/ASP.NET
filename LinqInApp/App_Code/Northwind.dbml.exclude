@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Northwind" Class="NorthwindDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\sqlexpress;Initial Catalog=Northwind;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="NorthwindConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Category" Member="Categories">
+    <Type Name="Category">
+      <Column Name="CategoryID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CategoryName" Type="System.String" DbType="VarChar(8000) NOT NULL" CanBeNull="false" />
+      <Association Name="Category_Product" Member="Products" ThisKey="CategoryID" OtherKey="CategoryID" Type="Product" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Products" Member="Products">
+    <Type Name="Product">
+      <Column Name="CategoryID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProductID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(8000)" CanBeNull="true" />
+      <Column Name="UnitPrice" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="UnitsInStock" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Category_Product" Member="Category" ThisKey="CategoryID" OtherKey="CategoryID" Type="Category" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

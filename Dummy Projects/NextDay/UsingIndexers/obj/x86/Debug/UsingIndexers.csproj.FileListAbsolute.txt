@@ -1,0 +1,5 @@
+C:\Users\naynish\Desktop\Dummy Projects\NextDay\UsingIndexers\bin\Debug\UsingIndexers.exe
+C:\Users\naynish\Desktop\Dummy Projects\NextDay\UsingIndexers\bin\Debug\UsingIndexers.pdb
+C:\Users\naynish\Desktop\Dummy Projects\NextDay\UsingIndexers\obj\x86\Debug\UsingIndexers.exe
+C:\Users\naynish\Desktop\Dummy Projects\NextDay\UsingIndexers\obj\x86\Debug\UsingIndexers.pdb
+C:\Users\naynish\Desktop\Dummy Projects\NextDay\UsingIndexers\bin\Debug\UsingIndexers.exe.config

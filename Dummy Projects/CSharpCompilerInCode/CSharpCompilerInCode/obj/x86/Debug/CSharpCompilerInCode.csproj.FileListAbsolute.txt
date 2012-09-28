@@ -1,0 +1,4 @@
+C:\Users\naynish\Desktop\Dummy Projects\CSharpCompilerInCode\CSharpCompilerInCode\bin\Debug\CSharpCompilerInCode.exe
+C:\Users\naynish\Desktop\Dummy Projects\CSharpCompilerInCode\CSharpCompilerInCode\bin\Debug\CSharpCompilerInCode.pdb
+C:\Users\naynish\Desktop\Dummy Projects\CSharpCompilerInCode\CSharpCompilerInCode\obj\x86\Debug\CSharpCompilerInCode.exe
+C:\Users\naynish\Desktop\Dummy Projects\CSharpCompilerInCode\CSharpCompilerInCode\obj\x86\Debug\CSharpCompilerInCode.pdb

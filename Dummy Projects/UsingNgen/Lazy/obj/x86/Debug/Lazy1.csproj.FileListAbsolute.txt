@@ -1,0 +1,5 @@
+C:\Users\naynish\Desktop\Dummy Projects\UsingNgen\Lazy\bin\Debug\Lazy.exe.config
+C:\Users\naynish\Desktop\Dummy Projects\UsingNgen\Lazy\bin\Debug\Lazy.exe
+C:\Users\naynish\Desktop\Dummy Projects\UsingNgen\Lazy\bin\Debug\Lazy.pdb
+C:\Users\naynish\Desktop\Dummy Projects\UsingNgen\Lazy\obj\x86\Debug\Lazy.exe
+C:\Users\naynish\Desktop\Dummy Projects\UsingNgen\Lazy\obj\x86\Debug\Lazy.pdb

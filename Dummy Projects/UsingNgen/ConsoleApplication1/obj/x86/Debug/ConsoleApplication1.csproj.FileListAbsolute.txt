@@ -1,0 +1,4 @@
+C:\Users\naynish\Desktop\Dummy Projects\UsingNgen\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\naynish\Desktop\Dummy Projects\UsingNgen\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\naynish\Desktop\Dummy Projects\UsingNgen\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\naynish\Desktop\Dummy Projects\UsingNgen\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

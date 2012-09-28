@@ -1,0 +1,5 @@
+C:\Users\naynish\Desktop\Dummy Projects\UsingNgen\Home\bin\Debug\Home.exe
+C:\Users\naynish\Desktop\Dummy Projects\UsingNgen\Home\bin\Debug\Home.pdb
+C:\Users\naynish\Desktop\Dummy Projects\UsingNgen\Home\obj\x86\Debug\Home.exe
+C:\Users\naynish\Desktop\Dummy Projects\UsingNgen\Home\obj\x86\Debug\Home.pdb
+C:\Users\naynish\Desktop\Dummy Projects\UsingNgen\Home\bin\Debug\Home.exe.config

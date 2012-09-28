@@ -1,0 +1,5 @@
+C:\Users\naynish\Desktop\Dummy Projects\Assem\Assem\bin\Debug\Assem.exe
+C:\Users\naynish\Desktop\Dummy Projects\Assem\Assem\bin\Debug\Assem.pdb
+C:\Users\naynish\Desktop\Dummy Projects\Assem\Assem\obj\x86\Debug\Assem.exe
+C:\Users\naynish\Desktop\Dummy Projects\Assem\Assem\obj\x86\Debug\Assem.pdb
+C:\Users\naynish\Desktop\Dummy Projects\Assem\Assem\obj\x86\Debug\Assem.csprojResolveAssemblyReference.cache

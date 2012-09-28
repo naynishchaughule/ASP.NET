@@ -248,7 +248,7 @@
                                             <If Condition="[CreateWorkItem]" DisplayName="If CreateWorkItem" mtbwt:BuildTrackingParticipant.Importance="Low">
                                               <If.Then>
                                                 <mtbwa:InvokeForReason DisplayName="Create Work Item for non-Shelveset Builds" Reason="Manual, IndividualCI, BatchedCI, Schedule, ScheduleForced, UserCreated">
-                                                  <mtbwa:OpenWorkItem AssignedTo="[BuildDetail.RequestedFor]" Comment="[&quot;This work item was created by TFS Build on a build failure.&quot;]" CustomFields="[New Dictionary(Of String, String) From { {&quot;System.Reason&quot;, &quot;Build Failure&quot;}, {&quot;Microsoft.VSTS.TCM.ReproSteps&quot;, &quot;Start the build using TFS Build&quot;}, {&quot;Microsoft.VSTS.CMMI.Symptom&quot;, &quot;Build Failure&quot;}, {&quot;Priority&quot;, &quot;1&quot;}, {&quot;Severity&quot;, &quot;1 - Critical&quot;} }]" DisplayName="Create Work Item" Title="[String.Format(&quot;Build Failure in Build: {0}&quot;, BuildDetail.BuildNumber)]" Type="[&quot;Bug&quot;]" />
+                                                  <mtbwa:OpenWorkItem AssignedTo="[BuildDetail.RequestedFor]" Comment="[&quot;This work item was created by TFS Build on a build failure.&quot;]" CustomFields="[New Dictionary(Of String, String) From { {&quot;System.Reason&quot;, &quot;Build Failure&quot;}, {&quot;Microsoft.VSTS.TCM.ReproSteps&quot;, &quot;Start the build using TFS Build&quot;}, {&quot;Priority&quot;, &quot;1&quot;}, {&quot;Severity&quot;, &quot;1 - Critical&quot;} }]" DisplayName="Create Work Item" Title="[String.Format(&quot;Build Failure in Build: {0}&quot;, BuildDetail.BuildNumber)]" Type="[&quot;Bug&quot;]" />
                                                 </mtbwa:InvokeForReason>
                                               </If.Then>
                                             </If>
@@ -382,7 +382,7 @@
               <If Condition="[AssociateChangesetsAndWorkItems]" DisplayName="If AssociateChangesetsAndWorkItems" mtbwt:BuildTrackingParticipant.Importance="Low">
                 <If.Then>
                   <mtbwa:InvokeForReason DisplayName="Associate Changesets and Work Items for non-Shelveset Builds" Reason="Manual, IndividualCI, BatchedCI, Schedule, ScheduleForced, UserCreated">
-                    <mtbwa:AssociateChangesetsAndWorkItems DisplayName="Associate Changesets and Work Items" Result="[associatedChangesets]"/>
+                    <mtbwa:AssociateChangesetsAndWorkItems DisplayName="Associate Changesets and Work Items" Result="[associatedChangesets]" />
                   </mtbwa:InvokeForReason>
                 </If.Then>
               </If>

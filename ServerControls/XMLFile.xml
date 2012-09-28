@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>firefox2005-icon.png</ImageUrl>
+    <NavigateUrl>http://www.apress.com</NavigateUrl>
+    <AlternateText>Apress - The Author's Press</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>books</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>icontexto-inside-google-buzz.png</ImageUrl>
+    <NavigateUrl>http://www.google.com</NavigateUrl>
+    <AlternateText>TechEd from Microsoft</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Java</Keyword>
+  </Ad>
+  <!-- More ads can go here. -->
+</Advertisements>
